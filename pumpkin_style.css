@@ -1,0 +1,21 @@
+body{
+    background-color: #212225;
+    
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    /* filter: drop-shadow(0 0 10px #09e909be); */
+    animation: glow 2s alternate infinite;
+}
+
+@keyframes glow {
+    0%{
+        filter: drop-shadow(0 0 10px #09e909be);
+    }
+    100%{
+        filter: drop-shadow(0 0 25px #ff6f00);
+    }
+
+}
